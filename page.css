@@ -1,0 +1,30 @@
+.titlebar{
+    color:black;
+    display:flex;
+    align-items:center;
+}
+.subtitle{
+    margin-left:auto;
+}
+.titlebar p{
+    display: inline-block;
+}
+.titlebar p a{
+    text-decoration: none;
+    padding:12px;
+}
+.image-container{
+    position:relative;
+    display:inline-block;
+}
+.img-container img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.text{
+  color:brown;
+  position:absolute;
+  top:50px;
+  left:50%;
+}
